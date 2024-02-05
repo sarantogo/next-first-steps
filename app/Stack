@@ -1,0 +1,11 @@
+ function number1() {
+    setTimeout(() => return "Function number1 called", 2000);
+  }
+
+  function number2() {
+    return "Function number2 called";
+  }
+
+  number1();
+  number2();
+  console.log("Hello");

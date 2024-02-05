@@ -1,0 +1,7 @@
+.link {
+  @apply m-2 hover:underline hover:text-cyan-700;
+}
+
+.active_link {
+  @apply text-blue-500;
+}
